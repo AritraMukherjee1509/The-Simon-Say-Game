@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 0.5px yellow, 0.5px 0.5px 0.25px grey;
+}
+
+h2, p {
+    font-size: 1.5rem;
+}
+
+.btn {
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 2.5rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.purple {
+    background-color: #819ff9;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.userFlash {
+    background-color: green;
+}
+
+.gameFlash {
+    background-color: black;
+}
